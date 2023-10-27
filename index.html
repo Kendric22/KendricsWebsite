@@ -10,13 +10,13 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
 
   <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-
 
   <link rel="stylesheet" href="style.css">
-</head>
+  
+  </head>
 
 <body>
+  <script src="jquery-3.7.1.min.js"></script>
   <div class="container">
     <h2 class="mode-status">Currently in Light Mode</h2>
     <label class="toggle-switch">
@@ -258,28 +258,37 @@
             </div>
           </div>
         </div>
+        <div class="row">
+          <div class="col-lg-4 mt-4">
+            <div class="card portfolioContent">
+              <img class="card-img-top" src=https://imgtr.ee/images/2023/10/27/ac376a2d82add98a47d6a62460b16a61.png alt="Card image" style="width:100%">
+              <div class="card-body">
+                <h4 class="card-title">Project 4</h4>
+                <p class="card-text"> Here is an functional calculator we did together in a class lecture using Event listeners and more! 
+                <div class="text-center">
+                  <a href="#" class="btn btn-success">View On Github</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
     </section>
-    <div class="container">
-      <div id="quiz" class="centered">
-        <h6>Random Quiz</h6>
-        <h2 id="question" class="headline-secondary--grouped"></h2>
-        <h3 id="score"></h3>
+    <div class="wrapper">
+      <div id="quiz">
+        <h1>Trivia quiz</h1>
 
-        <p id="choice0"></p>
-        <button id="guess0" class="btn--default">Select Answer</button>
-        <p id="choice1"></p>
-        <button id="guess1" class="btn--default">Select Answer</button>
-        <p id="choice2"></p>
-        <button id="guess2" class="btn--default">Select Answer</button>
-        <p id="choice3"></p>
-        <button id="guess3" class="btn--default">Select Answer</button>
+        <p class="questions"></p>
 
-        <p id="progress">Question x of y</p>
+        <div class="answers"></div>
 
+        <div class="checkAnswers">
+          <h3>Correct?</h3>
+          <div class="checker">
+
+          </div>
+        </div>
       </div>
     </div>
-      <script src="./script.js"></script>
-
     <section id="contact">
       <div class="container mt-3 contactContent">
         <h1 class="text-center">Contact Me</h1>
